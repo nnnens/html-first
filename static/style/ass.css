@@ -10,14 +10,14 @@ h3.iditenahyi {
   text-align: center;
 }
 
-#app span:first-child {
-  border: 2px solid pink;
-  padding: 5px;
-  display: inline-block;
-}
 .container {
   margin-top: 25px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 300px;
+
   flex-direction: row;
 
   .left {
@@ -27,7 +27,7 @@ h3.iditenahyi {
   }
   .center {
     border: 5px solid pink;
-    width: 100%;
+    width: 200px;
     height: 200px;
   }
 
