@@ -10,8 +10,10 @@ h3.iditenahyi {
   text-align: center;
 }
 
+
+
+
 .container {
-  margin-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +23,9 @@ h3.iditenahyi {
   flex-direction: row;
 
   .left {
+.levo{
+  text-align: center;
+}
     border: 5px solid pink;
     width: 200px;
     height: 200px;
