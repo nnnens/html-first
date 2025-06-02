@@ -1,22 +1,29 @@
 .container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    height: 600px;
+    height: 100%;
 }
-    .one {
-        width: 250px;
-        height: 100%;
-        border: 6px dotted mediumpurple;
-    }
-    .two {
-        width: 100%;
-        height: 100%;
-        border: 6px dotted mediumpurple;
-    }
-    .three {
-        width: 250px;
-        height: 100%;
-        border: 6px dotted mediumpurple;
-    }
+
+.container > * {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+}
+
+.one {
+    outline: none;
+    min-width: 250px;
+    height: 100%;
+    border: 6px solid mediumpurple;
+}
+
+.two {
+    height: 100%;
+    border: 6px solid mediumpurple;
+}
+
+.three {
+    min-width: 250px;
+    height: 100%;
+    border: 6px solid mediumpurple;
+}
 
