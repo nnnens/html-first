@@ -4,26 +4,26 @@
     height: 100%;
 }
 
-.container > * {
-    width: calc(100% / 3);
-    box-sizing: border-box;
-}
 
 .one {
-    outline: none;
-    min-width: 250px;
-    height: 100%;
+    float: left;
+    width: 200px;
+    height: 200px;
     border: 6px solid mediumpurple;
 }
 
 .two {
-    height: 100%;
+    float: ;
+    justify-items:center;
+    width: 200px;
+    height: 200px;
     border: 6px solid mediumpurple;
 }
 
 .three {
-    min-width: 250px;
-    height: 100%;
+    float: right;
+    width: 200px;
+    height: 200px;
     border: 6px solid mediumpurple;
 }
 

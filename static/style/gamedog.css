@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    height: calc(100vh / 2);
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: deeppink ;
+
+}
+    .left {
+        background: pink;
+        text-align: center;
+        border: 5px solid purple;
+        width: 100px;
+        height: 100px;
+    }
+    .center {
+        background: pink;
+        text-align: center;
+        border: 5px solid purple;
+        width: 100px;
+        height: 100px;
+    }
+    .right {
+        background: pink;
+        text-align: center;
+        border: 5px solid purple;
+        width: 100px;
+        height: 100px;
+    }
