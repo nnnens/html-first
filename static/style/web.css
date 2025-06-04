@@ -1,32 +1,33 @@
 
-  .header {
-        width: 100%;
-        height: 60px;
-        border: 5px solid purple;
-      background-color: yellowgreen;
-      position: fixed;
-  }
+header {
+    background: deeppink;
+    border: 5px solid purple;
+    padding: 20px;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
 
-    .container {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 100%;
-    }
-    .first {
-        width: 250px;
-        height: 100%;
-        border: 5px solid red;
-    }
-    .second {
-        width: 100%;
-        border: 5px solid red;
-    }
-    .footer {
-        background-color: aquamarine;
-        bottom: 0px;
-        width: 100%;
-        height: 60px;
-        border: 5px solid greenyellow;
-        position: fixed;
-    }
+.first {
+    width: 250px;
+    height: 600px;
+    border: 5px solid rebeccapurple;
+    background-color: aqua;
+}
+.second {
+    background-color: aqua;
+    width: 100%;
+    height: 600px;
+    border: 5px solid rebeccapurple;
+}
+footer {
+    margin: 0;
+    background: pink;
+    width: 100%;
+    height: 60px;
+    border: 5px solid deeppink;
+}
