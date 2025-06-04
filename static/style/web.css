@@ -1,0 +1,53 @@
+main {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-container {
+    flex-grow: 4;
+    background-color: aqua;
+    min-height: 100%;
+    height: 100%;
+}
+
+header {
+    height: 100px;
+    background: deeppink;
+    border: 5px solid purple;
+    padding: 20px;
+    flex-direction: column;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    height: 100%;
+}
+
+.first {
+    width: 250px;
+    border: 5px solid purple;
+}
+.background {
+
+}
+.second {
+    background-color: aqua;
+    width: 100%;
+    border: 5px solid rebeccapurple;
+}
+
+footer {
+    margin: 0;
+    background: pink;
+    width: 100%;
+    height: 60px;
+    border: 5px solid deeppink;
+    position: sticky;
+    top:100vh;
+}
