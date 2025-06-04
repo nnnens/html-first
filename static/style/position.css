@@ -2,6 +2,7 @@
     height: 100%;
     padding-top: 250px;
     background: bisque;
+    position: relative;
 }
 
 .container {
@@ -11,11 +12,12 @@
     justify-content: flex-end;
     border:10px solid coral;
     background: black;
-    position: relative;
+    margin-bottom: 30px;
 }
 
 .container > * {
-
+    text-align: center;
+    font-size: 30px;
 }
 
 .one {

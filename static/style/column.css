@@ -7,23 +7,34 @@
 .container > * {
     width: calc(100% / 3);
     box-sizing: border-box;
-}
-
-.one {
-    outline: none;
+    height: 250px;
     min-width: 250px;
-    height: 100%;
     border: 6px solid mediumpurple;
 }
+
+.inner {
+    background: red;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 100px
+}
+
+.deep-deep-child:hover {
+    color: white;
+}
+
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ==========                      TWO                           ============ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+
+
+
 
 .two {
-    height: 100%;
-    border: 6px solid mediumpurple;
+    position: absolute;
+    top: 100px;
 }
-
-.three {
-    min-width: 250px;
-    height: 100%;
-    border: 6px solid mediumpurple;
-}
-
