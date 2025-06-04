@@ -4,26 +4,37 @@
     height: 100%;
 }
 
-
-.one {
-    float: left;
-    width: 200px;
-    height: 200px;
+.container > * {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    height: 250px;
+    min-width: 250px;
     border: 6px solid mediumpurple;
 }
+
+.inner {
+    background: red;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 100px
+}
+
+.deep-deep-child:hover {
+    color: white;
+}
+
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ==========                      TWO                           ============ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+
+
+
 
 .two {
-    float: ;
-    justify-items:center;
-    width: 200px;
-    height: 200px;
-    border: 6px solid mediumpurple;
+    position: absolute;
+    top: 100px;
 }
-
-.three {
-    float: right;
-    width: 200px;
-    height: 200px;
-    border: 6px solid mediumpurple;
-}
-
