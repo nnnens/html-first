@@ -7,7 +7,6 @@ main {
     border: 1px solid;
 
     display: grid;
-    grid-auto-flow: column;
     grid-template-columns: 300px 1fr;
     grid-template-rows: auto 1fr auto;
     gap: 0px 0px;
@@ -16,7 +15,6 @@ main {
     "sidebar content"
     "footer footer";
 }
-
 
 
 header {
@@ -35,6 +33,13 @@ header {
 .content {
     grid-area: content;
     border-left:1px solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 35px; /* row-gap column gap */
+    justify-content: space-between;
 }
 
 footer {
