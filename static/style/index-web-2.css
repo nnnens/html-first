@@ -1,0 +1,9 @@
+
+.grid > * {
+    border: 3px solid rebeccapurple;
+    text-align: center;
+}
+
+.content-grid {
+    gap: 20px;
+}
