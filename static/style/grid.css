@@ -1,4 +1,4 @@
-main {
+.main {
     width: 1000px;
     margin: 0 auto;
     position: relative;
@@ -8,9 +8,9 @@ main {
 
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 300px 1fr;
-    grid-template-rows: auto 1fr auto;
-    gap: 0px 0px;
+    grid-template-columns: 250px 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-column-gap: 30px;
     grid-template-areas:
     "header header"
     "sidebar content"
@@ -20,7 +20,7 @@ main {
 
 
 header {
-    height: 100px;
+    height: 60px;
     background: deeppink;
     border-bottom: 1px solid purple;
     padding: 20px;
@@ -34,21 +34,21 @@ header {
 
 .content {
     grid-area: content;
-    border-left:1px solid;
+    border:1px solid;
 }
 
 footer {
-    margin: 0;
+    align-self: end;
     background: pink;
     height: 60px;
     border-top: 1px solid deeppink;
     grid-area: footer;
 }
 
-
+/*
 .background {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Russian_word_huy.jpg/1200px-Russian_word_huy.jpg") ;
     background-size: cover;
     color: white;
     padding: 15px;
-}
+} */

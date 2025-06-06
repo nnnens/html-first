@@ -1,0 +1,53 @@
+.card-one {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+    max-height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: lightsteelblue;
+}
+.card-two {
+    display: flex;
+    min-height: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+    height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: lightsteelblue;
+}
+.pict-card1 {
+    position: absolute;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    min-height: 150px;
+    background-image: url(../images/P1290214.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.price-card1 {
+    border-radius: 6px;
+    border: 3px solid deeppink;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+
+
+}
+.logo-card1 {
+    border-radius: 6px;
+    border: 3px solid deeppink;
+    background-color: grey;
+    z-index: 5;
+}
