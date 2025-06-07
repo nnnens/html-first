@@ -1,13 +1,14 @@
 {
-  "name": "my_package",
-  "description": "make your package easier to find on the npm website",
+  "name": "nnens-app",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "make your package easier to find on the npm website",
   "keywords": [],
   "author": "",
   "license": "ISC",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "prettier": "^3.5.3"
   }
