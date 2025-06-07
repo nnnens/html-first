@@ -28,42 +28,30 @@
 .price-card1 {
     display: flex;
     flex-direction: row;
-    height: 28px;
     width: 203px;
+    gap: 10px;
     border: 1px solid black;
+    padding: 10px;
 
 }
-.price1 {
-    height: 24px;
-    width: 65px;
-    margin-left: 10px;
-}
-.price2 {
-    min-height: 24px;
-    min-width: 45px;
-    margin-left: 10px;
-}
+
 .price3 {
     display: flex;
     flex-direction: row;
     min-height: 20px;
     min-width: 20px;
-    margin-left: 10px;
 
 }
 .text-card1 {
-    display: flex;
-    height: 69px;
-    width: 199px;
-    min-width: 0;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
-    flex-shrink: 1;
-
+    text-align: left;
 }
-.logo-card1 {
 
+.indent {
+    padding: 10px;
 }
 
 /*.card-two {
