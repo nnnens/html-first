@@ -19,26 +19,26 @@ body {
 
 .grid .header-grid {
     grid-area: header;
-    background-color: mediumpurple;
+    background-color: beige;
     height: 60px;
 }
 
 .grid .sidebar-grid {
     grid-area: sidebar;
-    background-color: tan;
+    background-color: beige;
     min-height: 100%;
 }
 
 .grid .content-grid {
     grid-area: content;
-    background-color: #cb9a9a;
+    background-color: beige;
     min-height: 100%;
 
 }
 
 .grid .footer-grid {
     grid-area: footer;
-    background-color: mediumpurple;
+    background-color: beige;
     height: 60px;
 }
 
