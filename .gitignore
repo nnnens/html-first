@@ -1,2 +1,5 @@
 .idea
 node_modules
+dist
+build
+__temp__

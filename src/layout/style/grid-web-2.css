@@ -1,6 +1,8 @@
-body {
-    background: papayawhip;
+.main-layout {
+    min-height: 100%;
 }
+
+
 .grid {
     display: grid;
     grid-template-columns: 250px 1fr;
@@ -16,6 +18,11 @@ body {
     margin: 0 auto;
 }
 
+.grid > * {
+    border: 3px solid rebeccapurple;
+}
+
+
 
 .grid .header-grid {
     grid-area: header;
@@ -29,11 +36,17 @@ body {
     min-height: 100%;
 }
 
-.grid .content-grid {
+.content-outlet {
     grid-area: content;
+}
+
+.grid .content-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 10px 10px;
+    flex-wrap: wrap;
     background-color: beige;
     min-height: 100%;
-
 }
 
 .grid .footer-grid {
@@ -42,8 +55,3 @@ body {
     height: 60px;
 }
 
-.content-grid {
-    display: flex;
-    flex-direction: row;
-    gap: 10px 10px;
-}

@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 300px 1fr;
     grid-template-rows: auto 1fr auto;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
     "header header"
     "sidebar content"
